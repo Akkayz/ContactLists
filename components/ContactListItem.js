@@ -27,7 +27,7 @@ const ContactListItem = ({ name, avatar, phone, onPress }) => {
   );
 };
 
-ContactItem.propTypes = {
+ContactListItem.propTypes = {
   avatar: PropTypes.string,
   name: PropTypes.string,
   phone: PropTypes.string,
@@ -70,4 +70,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ContactItem;
+export default ContactListItem;
